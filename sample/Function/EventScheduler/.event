@@ -1,0 +1,13 @@
+{
+	"version": "0",
+	"id": "544ae54f-9a08-b187-0f48-3352297e275e",
+	"detail-type": "Scheduled Event",
+	"source": "aws.events",
+	"account": "806950171053",
+	"time": "2022-11-10T23:00:00Z",
+	"region": "ap-northeast-2",
+	"resources": [
+		"arn:aws:events:ap-northeast-2:806950171053:rule/DailyAtAM08InKorea"
+	],
+	"detail": {}
+}

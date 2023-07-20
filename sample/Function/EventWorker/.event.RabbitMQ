@@ -1,0 +1,193 @@
+{
+   "eventSource":"aws:rmq",
+   "eventSourceArn":"arn:aws:mq:ap-northeast-2:806950171053:broker:dev-mq:b-13115553-5dd3-4c25-94d6-ad4f6a16ace9",
+   "rmqMessagesByQueue":{
+   		"queue.sample.compute::/": [
+   			{
+	   			"basicProperties":{
+               "contentType":"application/json",
+               "contentEncoding":"utf-8",
+               "headers":{
+                   "a": 8,
+                   "b": 3
+               },
+               "deliveryMode":2,
+               "priority":"None",
+               "correlationId":"272c9c7e-0ff0-4130-bbd9-98709e20c1ac",
+               "expiration":"None",
+               "messageId":"None",
+               "timestamp":"None",
+               "type":"event.sample.compute",
+               "userId":"None",
+               "appId":"None",
+               "clusterId":"None",
+               "bodySize":7
+            },
+            "redelivered":false,
+            "data":"eyJjIjogN30="
+   			}
+   		],
+      "queue.sample::/":[
+         {
+            "basicProperties":{
+               "contentType":"application/json",
+               "contentEncoding":"utf-8",
+               "headers":{
+                  "a": 8,
+                  "b": 3
+               },
+               "deliveryMode":2,
+               "priority":"None",
+               "correlationId":"272c9c7e-0ff0-4130-bbd9-98709e20c1ac",
+               "expiration":"None",
+               "messageId":"None",
+               "timestamp":"None",
+               "type":"event.sample.compute.fn",
+               "userId":"None",
+               "appId":"None",
+               "clusterId":"None",
+               "bodySize":7
+            },
+            "redelivered":false,
+            "data":"eyJjIjogN30="
+         },
+         {
+            "basicProperties":{
+               "contentType":"application/json",
+               "contentEncoding":"utf-8",
+               "headers":{
+                  "b": 3
+               },
+               "deliveryMode":2,
+               "priority":"None",
+               "correlationId":"272c9c7e-0ff0-4130-bbd9-98709e20c1ac",
+               "expiration":"None",
+               "messageId":"None",
+               "timestamp":"None",
+               "type":"event.sample.compute",
+               "userId":"None",
+               "appId":"None",
+               "clusterId":"None",
+               "bodySize":7
+            },
+            "redelivered":false,
+            "data":"eyJjIjogN30="
+         },
+         {
+            "basicProperties":{
+               "contentType":"application/json",
+               "contentEncoding":"utf-8",
+               "headers":{
+               		"a": 1,
+               		"b": 12
+               },
+               "deliveryMode":2,
+               "priority":"None",
+               "correlationId":"272c9c7e-0ff0-4130-bbd9-98709e20c1ac",
+               "expiration":"None",
+               "messageId":"None",
+               "timestamp":"None",
+               "type":"event.sample.compute",
+               "userId":"None",
+               "appId":"None",
+               "clusterId":"None",
+               "bodySize":7
+            },
+            "redelivered":false,
+            "data":"eyJjIjogN30="
+         },
+         {
+            "basicProperties":{
+               "contentType":"application/json",
+               "contentEncoding":"utf-8",
+               "headers":{
+                   "a": 8,
+                   "b": 3
+               },
+               "deliveryMode":2,
+               "priority":"None",
+               "correlationId":"272c9c7e-0ff0-4130-bbd9-98709e20c1ac",
+               "expiration":"None",
+               "messageId":"None",
+               "timestamp":"None",
+               "type":"event.sample.compute",
+               "userId":"None",
+               "appId":"None",
+               "clusterId":"None",
+               "bodySize":7
+            },
+            "redelivered":false,
+            "data":"eyJjIjogN30="
+         },
+         {
+            "basicProperties":{
+               "contentType":"application/json",
+               "contentEncoding":"utf-8",
+               "headers":{
+                   "a": 19,
+                   "b": 7
+               },
+               "deliveryMode":2,
+               "priority":"None",
+               "correlationId":"99ca9077-bb70-4bfe-a237-031a07ba8e77",
+               "expiration":"None",
+               "messageId":"None",
+               "timestamp":"None",
+               "type":"event.sample.compute",
+               "userId":"None",
+               "appId":"None",
+               "clusterId":"None",
+               "bodySize":7
+            },
+            "redelivered":false,
+            "data":"eyJjIjogN30="
+         },
+         {
+            "basicProperties":{
+               "contentType":"application/json",
+               "contentEncoding":"utf-8",
+               "headers":{
+                   "a": 19,
+                   "b": 7
+               },
+               "deliveryMode":2,
+               "priority":"None",
+               "correlationId":"99ca9077-bb70-4bfe-a237-031a07ba8e77",
+               "expiration":"None",
+               "messageId":"None",
+               "timestamp":"None",
+               "type":"event.sample.compute",
+               "userId":"None",
+               "appId":"None",
+               "clusterId":"None",
+               "bodySize":9
+            },
+            "redelivered":false,
+            "data":"eyJkIjogMTAuOX0="
+         },
+         {
+            "basicProperties":{
+               "contentType":"application/json",
+               "contentEncoding":"utf-8",
+               "headers":{
+                   "a": 19,
+                   "b": 7
+               },
+               "deliveryMode":2,
+               "priority":"None",
+               "correlationId":"99ca9077-bb70-4bfe-a237-031a07ba8e77",
+               "expiration":"None",
+               "messageId":"None",
+               "timestamp":"None",
+               "type":"event.sample.compute",
+               "userId":"None",
+               "appId":"None",
+               "clusterId":"None",
+               "bodySize":10
+            },
+            "redelivered":false,
+            "data":"eyJjIjogMy4yfQ=="
+         }
+      ]
+   }
+}

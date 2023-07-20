@@ -1,0 +1,50 @@
+{
+   "resource":"/sample/{id}",
+   "path":"/sample/4",
+   "httpMethod":"POST",
+   "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": 18
+   },
+   "multiValueHeaders": null,
+   "queryStringParameters":{
+      "a":"9",
+      "b":"10.2",
+      "c":"가나다"
+   },
+   "multiValueQueryStringParameters":{
+      "a":[
+         "9"
+      ],
+      "b":[
+      	"10.2"
+      ],
+      "c":[
+      	"가나다"
+      ]
+   },
+   "pathParameters":{
+      "id":"4"
+   },
+   "stageVariables": null,
+   "requestContext":{
+      "resourceId":"inqm3h",
+      "resourcePath":"/sample/{id}",
+      "httpMethod":"POST",
+      "extendedRequestId":"Eg_rVHxYIE0Fg_g=",
+      "requestTime":"23/Aug/2021:10:33:31 +0000",
+      "path":"/sample/{id}",
+      "accountId":"806950171053",
+      "protocol":"HTTP/1.1",
+      "stage":"test-invoke-stage",
+      "domainPrefix":"testPrefix",
+      "requestTimeEpoch":1629714811552,
+      "requestId":"33bfb84c-7fdc-4388-8df0-dc67891b4c1e",
+      "identity":{
+      },
+      "domainName":"testPrefix.testDomainName",
+      "apiId":"s7nqc5jnuf"
+   },
+   "body":"eyJhIjogMiwgImIiOiAzLjN9",
+   "isBase64Encoded": true
+}
